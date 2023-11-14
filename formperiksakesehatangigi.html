@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gigi.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Booking Periksa Kesehatan Gigi</legend>
+<table>
+    <tr>
+        <td>
+            <label for="nama">Nama Pasien</label>
+        </td>
+        <td> 
+            <input type="text" name="nama pasien">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pilihdokter">Pilih Dokter</label>
+        </td>
+        <td> 
+            <select name="pilihdokter" id="pilihdokter">
+                <option value="Drg.Amelia">Drg. Amelia</option>
+                <option value="Drg.Siska">Drg. Siska</option>
+                <option value="Drg.Indah">Drg. Indah</option>
+                <option value="Drg.Bondan">Drg. Bondan</option>
+                <option value="Drg.Anton">Drg. Anton</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pilihlayanan">Pilih Layanan</label>
+        </td>
+        <td> 
+            <select name="pilihlayanan" id="pilihlayanan">
+                <option value="perawatangigianak">Perawatan Gigi Anak</option>
+                <option value="perawatangigidewasa">Perawatan Gigi Dewasa</option>
+                <option value="cabutgigi">Cabut Gigi</option>
+                <option value="kesehatangigiumum">Kesehatan Gigi Umum</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="keluhan">Keluhan:</label</td>
+        <td><textarea name="keluhan" id="address" cols="45" rows="2"></textarea></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pembayaran">Pembayaran</label>
+        </td>
+        <td>
+            <input type="checkbox" name="pembayaran[]" value="cash"> Cash
+            <input type="checkbox" name="pembayaran[]" value="transfer"> Transfer
+            <input type="checkbox" name="pembayaran[]" value="ewallet"> eWallet
+        </td>
+    </tr>
+    <tr>
+        <tr>
+            <td>
+              <label for="tanggalperiksa">Tanggal Periksa</label>
+            </td>
+            <td>
+              <input type="date" name="tanggalperikksa" id="tanggalperiksa">
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <label for="umurpasien">Umur</label>
+            </td>
+            <td> 
+                <input type="text" name="umurpasien">
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <label for="telepon">Telpon/HP</label>
+            </td>
+            <td>
+              <input type="number" name="telepon" id="telepon">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td> 
+                <input type="text" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+             <button type="submit" class="btn-blue">Simpan</button>
+             <button type="reset" class="btn-red">Reset</button>
+            </td>
+         </tr>
+    </tr>
+</table>
+
+
+
+
+
+
+
+    </fieldset>
+</body>
+</html>

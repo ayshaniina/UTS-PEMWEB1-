@@ -1,0 +1,7 @@
+label{font-size:18px; display:block;text-align:center;}
+legend{font-size: 18px;}
+input, select, textarea{border:2px solid #000}
+td{padding:2px;}
+button{margin:8px;padding:7px 8px;color:black;}
+.btn-blue{background-color:cornflowerblue}
+.btn-red{background-color:crimson}
